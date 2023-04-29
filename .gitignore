@@ -1,8 +1,24 @@
-node_modules
+node_modules/
 .DS_Store
-dist
+dist/
 *.local
 thumbs.db
+
+
+# 忽略日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# 忽略编辑器目录和文件
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 .eslintcache
 .browserslistrc
@@ -11,14 +27,14 @@ thumbs.db
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# User-specific stuff
+# 忽略用户个人数据
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
 
-# Generated files
+# 忽略生成的文件
 .idea/**/contentModel.xml
 
 # Sensitive or high-churn files
@@ -56,3 +72,4 @@ thumbs.db
 # Editor-based Rest Client
 .idea/httpRequests
 /.idea/csv-plugin.xml
+/.vs
