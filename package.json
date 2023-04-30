@@ -62,7 +62,7 @@
     "@vue/test-utils": "2.3.2",
     "cross-env": "7.0.3",
     "electron": "24.1.2",
-    "electron-builder": "23.6.0",
+    "electron-builder": "24.3.0",
     "electron-icon-builder": "2.0.1",
     "eslint": "8.38.0",
     "eslint-plugin-vue": "9.11.0",
